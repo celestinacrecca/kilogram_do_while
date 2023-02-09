@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+    int pounds=100;
+    float kilograms;
+        printf("pounds\tkilograms\n");
+    do{
+       kilograms= pounds * 0.454;
+       printf("%d\t%.2f\n", pounds, kilograms);
+       pounds= pounds +10;
+    }
+
+      while (pounds<=200);
+
+      getch();
+      return 0;
+
+    }
